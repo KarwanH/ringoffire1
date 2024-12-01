@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   max-width: 100%;
-  background: url("/assets/img/board.jpg");
+  background: url("./../../assets/img/board.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,7 +29,8 @@
 }
 
 .played-card {
-  transform: scale(1.2) translateX(120px) translateY(-200px) rotate(-10deg);}
+  transform: scale(1.2) translateX(120px) translateY(-200px) rotate(-10deg);
+}
 
 .pick-card {
   animation: pick-card-animation 1s ease-in-out;
@@ -51,19 +52,19 @@
   }
 }
 
-.player-position{
+.player-position {
   position: absolute;
   right: 0;
   border-radius: 20%;
 }
 
-.btn-add{
+.btn-add {
   position: absolute;
   right: 32px;
   bottom: 32px;
 }
 
-.info-card{
+.info-card {
   position: absolute;
   bottom: 32px;
   left: 100px;
